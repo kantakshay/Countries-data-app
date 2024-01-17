@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito Sans";
 }
 
 :root {
@@ -28,5 +29,19 @@
   color: var(--White);
   height: 50px;
   padding: 0 50px;
-  font-family: "Nunito Sans";
+}
+
+
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: var(--Very-Dark-Blue) ;
+  width: 200px;
+padding: 10px 10px;
+margin: 50px;
+color: var(--White);
 }
