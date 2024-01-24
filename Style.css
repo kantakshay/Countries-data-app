@@ -31,6 +31,9 @@
   padding: 0 50px;
 }
 
+.home{
+  background-color: var(--Dark-Blue);
+}
 
 .home-container{
   display: flex;
