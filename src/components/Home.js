@@ -12,7 +12,6 @@ const Home = () => {
     const jsonData = await data.json();
     setConData(jsonData);
     setFilterConData(jsonData);
-    console.log(conData)
   };
 
 
